@@ -1,0 +1,91 @@
+body {
+  background: url(../media/pinkClouds.jpg);
+  background-attachment: fixed;
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  margin: 0vw;
+}
+.weatherApp {
+  margin: 0 auto;
+  max-width: 900px;
+}
+.card {
+  text-align: center;
+}
+#search {
+  background-color: rgba(255, 255, 255, 0.4);
+  border: 1px solid rgba(192, 192, 192, 0.4);
+  width: 95%;
+}
+.greeting {
+  text-align: left;
+}
+.dateToday {
+  text-align: left;
+}
+#time-now {
+  text-align: left;
+}
+.card.bg-card-left {
+  background-color: rgba(216, 178, 190, 0.4);
+}
+.just-right {
+  text-align: center;
+}
+.just-left {
+  text-align: center;
+}
+.card.bg-card-right {
+  background-color: rgba(216, 178, 190, 0.4);
+}
+
+.card.bg-card-details {
+  background-color: rgba(255, 255, 255, 0.3);
+}
+
+.location {
+  font-size: 32px;
+  margin: 20px auto 1px;
+}
+.weatherIcon-main {
+  font-size: 75px;
+  margin: 1px;
+  padding: 2px;
+}
+.weatherStatus {
+  font-size: 20px;
+}
+.temp {
+  padding: 3px 0 0 0;
+  font-size: 36px;
+}
+.units {
+  font-size: 20px;
+}
+#fahrenheit-link {
+  text-decoration: none;
+  color: black;
+}
+#fahrenheit-link:hover {
+  color: rgb(0, 188, 242);
+}
+#celsius-link {
+  text-decoration: none;
+  color: black;
+}
+#celsius-link:hover {
+  color: rgb(0, 188, 242);
+}
+.greeting {
+  font-size: 40px;
+}
+.weatherIcon {
+  font-size: 35px;
+  margin: 1px;
+  padding: 2px;
+}
+table {
+  padding: 1px;
+  margin: 1px;
+}
